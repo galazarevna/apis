@@ -31,11 +31,11 @@
 
           <ul class="events-list">
             {% for event in results %}
-              <li>
-                <a href="/event/{{ event['id'] }}" target="_blank">
-                  {{ event['name'] }}
-                </a>
-              </li>
+            <li>
+              <a href="/event/{{ event['id'] }}" target="_blank">
+                {{ event['name'] }}
+              </a>
+            </li>
             {% endfor %}
           </ul>
         </div>
